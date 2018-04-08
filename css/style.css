@@ -1,0 +1,46 @@
+
+.symbol{
+	font-size:30px;
+	line-height: 136px;
+	color:#000;
+}
+.symbol.won{
+	color:#008000;
+    animation: shake 400ms ease-in-out;
+}
+@keyframes shake {
+  0% {transform: translateX(0);}
+  12.5% {transform: translateX(-6px) rotateY(-5deg)}
+  37.5% {transform: translateX(5px) rotateY(4deg)}
+  62.5% {transform: translateX(-3px) rotateY(-2deg)}
+  87.5% {transform: translateX(2px) rotateY(1deg)}
+  100% {transform: translateX(0)}
+}
+
+.title {
+	text-decoration: underline;
+}
+.well{
+	text-align: center;
+	margin-top:30px;
+	width :600px;
+}
+td {
+	text-align:center;
+	font-size:25px;
+	font-weight:400;
+}
+.container {
+	padding-right: 200px;
+	padding-left: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.table {
+	margin-top :30px;
+
+}
+.result {
+	margin-top:15px;
+}
+
